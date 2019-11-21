@@ -30,6 +30,7 @@ package_group(
         "//base/...",
         "//cc/...",
         "//python/...",
+        "//javabase/...",
     ],
 )
 
