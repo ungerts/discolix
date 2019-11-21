@@ -163,8 +163,12 @@ deb_packages(
     distro = "buster/updates",
     distro_type = "debian",
     mirrors = ["http://security.debian.org/debian-security"],
-    packages = {"qemu-user-static": "pool/updates/main/q/qemu/qemu-user-static_3.1+dfsg-8+deb10u2_amd64.deb"},
-    packages_sha256 = {"qemu-user-static": "f7fc5f37647997aa6d2e09d57c0d0573672f7574ff9688e86df7a6b4c2998a38"},
+    packages = {"qemu-user-static": "pool/updates/main/q/qemu/qemu-user-static_3.1+dfsg-8+deb10u2_amd64.deb",
+                "openjdk-11-jdk-headless": "pool/updates/main/o/openjdk-11/openjdk-11-jdk-headless_11.0.5+10-1~deb10u1_amd64.deb"
+               },
+    packages_sha256 = {"qemu-user-static": "f7fc5f37647997aa6d2e09d57c0d0573672f7574ff9688e86df7a6b4c2998a38",
+                       "openjdk-11-jdk-headless": "c4cfd7775d5520845f21ee85d5851760669ec4131caa79af9bb9849d48f19cc2"
+                      },
     pgp_key = "buster_archive_security_key",
 )
 
@@ -235,8 +239,12 @@ deb_packages(
     distro = "buster/updates",
     distro_type = "debian",
     mirrors = ["http://security.debian.org/debian-security"],
-    packages = {},
-    packages_sha256 = {},
+    packages = {
+        "openjdk-11-jdk-headless": "pool/updates/main/o/openjdk-11/openjdk-11-jdk-headless_11.0.5+10-1~deb10u1_arm64.deb"
+    },
+    packages_sha256 = {
+        "openjdk-11-jdk-headless": "40447a98878709e3a44d250f3d621c810835f33707a3003f84a715b4eb5b3e1d"
+    },
     pgp_key = "buster_archive_security_key",
 )
 
@@ -307,8 +315,12 @@ deb_packages(
     distro = "buster/updates",
     distro_type = "debian",
     mirrors = ["http://security.debian.org/debian-security"],
-    packages = {},
-    packages_sha256 = {},
+    packages = {
+        "openjdk-11-jdk-headless": "pool/updates/main/o/openjdk-11/openjdk-11-jdk-headless_11.0.5+10-1~deb10u1_armhf.deb"
+    },
+    packages_sha256 = {
+        "openjdk-11-jdk-headless": "4ae372c02d1c80f980af940a0a8183614ffdff0a7f94b5e101a5231b6161ff29"
+    },
     pgp_key = "buster_archive_security_key",
 )
 
