@@ -118,7 +118,7 @@ deb_packages(
         "libpython3.7-stdlib": "pool/main/p/python3.7/libpython3.7-stdlib_3.7.3-2_amd64.deb",
         "libreadline7": "pool/main/r/readline/libreadline7_7.0-5_amd64.deb",
         "libsqlite3-0": "pool/main/s/sqlite3/libsqlite3-0_3.27.2-3_amd64.deb",
-        "libssl1.1": "pool/main/o/openssl/libssl1.1_1.1.1c-1_amd64.deb",
+        "libssl1.1": "pool/main/o/openssl/libssl1.1_1.1.1d-2_amd64.deb",
         "libstdc++6": "pool/main/g/gcc-8/libstdc++6_8.3.0-6_amd64.deb",
         "libtinfo6": "pool/main/n/ncurses/libtinfo6_6.1+20181013-2+deb10u1_amd64.deb",
         "libuuid1": "pool/main/u/util-linux/libuuid1_2.33.1-0.1_amd64.deb",
