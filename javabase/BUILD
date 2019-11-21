@@ -18,8 +18,10 @@ load("@io_bazel_rules_docker//container:container.bzl", "container_image")
 load("//private:debian_buster.bzl", "debian_buster")
 load("//private:platforms.bzl", "PLATFORMS")
 load("//private/noarch:files.bzl", "NONROOT")
+load("//repkg:defs.bzl", "repkg_debs")
 
-# javabse
+
+# javabase
 
 [container_image(
     name = platform,
@@ -31,8 +33,8 @@ load("//private/noarch:files.bzl", "NONROOT")
         debian_buster[arch]["libpng16-16"],
         debian_buster[arch]["liblcms2-2"],
         debian_buster[arch]["libfreetype6"],
-        debian_buster[arch]["fonts-dejavu-core"],
-        debian_buster[arch]["fontconfig-config"],
+        debian_buster["noarch"]["fonts-dejavu-core"],
+        debian_buster["noarch"]["fontconfig-config"],
         debian_buster[arch]["libexpat1"],
         debian_buster[arch]["libfontconfig1"],
     ],

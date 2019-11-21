@@ -89,6 +89,18 @@ container_bundle(
         "{PROJECT_REGISTRY_PREFIX}/python:debug-nonroot-linux_amd64": "//python:debug-nonroot-linux_amd64",
         "{PROJECT_REGISTRY_PREFIX}/python:debug-nonroot-linux_arm64": "//python:debug-nonroot-linux_arm64",
         "{PROJECT_REGISTRY_PREFIX}/python:debug-nonroot-linux_arm": "//python:debug-nonroot-linux_arm",
+        "{PROJECT_REGISTRY_PREFIX}/javabase:nonroot-linux_amd64": "//javabase:nonroot-linux_amd64",
+        "{PROJECT_REGISTRY_PREFIX}/javabase:nonroot-linux_arm64": "//javabase:nonroot-linux_arm64",
+        "{PROJECT_REGISTRY_PREFIX}/javabase:nonroot-linux_arm": "//javabase:nonroot-linux_arm",
+        "{PROJECT_REGISTRY_PREFIX}/javabase:debug-linux_amd64": "//javabase:debug-linux_amd64",
+        "{PROJECT_REGISTRY_PREFIX}/javabase:debug-linux_arm64": "//javabase:debug-linux_arm64",
+        "{PROJECT_REGISTRY_PREFIX}/javabase:debug-linux_arm": "//javabase:debug-linux_arm",
+        "{PROJECT_REGISTRY_PREFIX}/javabase:debug-nonroot-linux_amd64": "//javabase:debug-nonroot-linux_amd64",
+        "{PROJECT_REGISTRY_PREFIX}/javabase:debug-nonroot-linux_arm64": "//javabase:debug-nonroot-linux_arm64",
+        "{PROJECT_REGISTRY_PREFIX}/javabase:debug-nonroot-linux_arm": "//javabase:debug-nonroot-linux_arm",
+        "{PROJECT_REGISTRY_PREFIX}/javabase:{PROJECT_GIT_COMMIT}-linux_amd64": "//javabase:linux_amd64",
+        "{PROJECT_REGISTRY_PREFIX}/javabase:{PROJECT_GIT_COMMIT}-linux_arm64": "//javabase:linux_arm64",
+        "{PROJECT_REGISTRY_PREFIX}/javabase:{PROJECT_GIT_COMMIT}-linux_arm": "//javabase:linux_arm",
     },
 )
 
