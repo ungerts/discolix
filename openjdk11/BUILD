@@ -27,7 +27,7 @@ load("//repkg:defs.bzl", "repkg_debs")
     name = platform,
     base = "//javabase:" + platform,
     debs = [
-        debian_buster_security[arch]["openjdk-11-jdk-headless"],
+        debian_buster/updates[arch]["openjdk-11-jdk-headless"],
     ],
     stamp = True,
 ) for (platform, os, arch) in PLATFORMS]
