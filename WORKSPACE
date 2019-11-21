@@ -164,7 +164,7 @@ deb_packages(
     distro_type = "debian",
     mirrors = ["http://security.debian.org/debian-security"],
     packages = {"qemu-user-static": "pool/updates/main/q/qemu/qemu-user-static_3.1+dfsg-8+deb10u3_amd64.deb"},
-    packages_sha256 = {"qemu-user-static": "f7fc5f37647997aa6d2e09d57c0d0573672f7574ff9688e86df7a6b4c2998a38"},
+    packages_sha256 = {"qemu-user-static": "426beb17aa44e206ff264d5a28abbbbbb4aa1728daac694d1f1404582f501874"},
     pgp_key = "buster_archive_security_key",
 )
 
