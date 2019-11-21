@@ -15,7 +15,7 @@
 package(default_visibility = ["//visibility:public"])
 
 load("@io_bazel_rules_docker//container:container.bzl", "container_image")
-load("//private:debian_buster.bzl", "debian_buster")
+load("//private:debian_buster.bzl", "debian_buster", "debian_buster_security")
 load("//private:platforms.bzl", "PLATFORMS")
 load("//private/noarch:files.bzl", "NONROOT")
 load("//repkg:defs.bzl", "repkg_debs")
@@ -27,7 +27,7 @@ load("//repkg:defs.bzl", "repkg_debs")
     name = platform,
     base = "//javabase:" + platform,
     debs = [
-        debian_buster/updates[arch]["openjdk-11-jdk-headless"],
+        debian_buster_security[arch]["openjdk-11-jdk-headless"],
     ],
     stamp = True,
 ) for (platform, os, arch) in PLATFORMS]
