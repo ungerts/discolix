@@ -292,7 +292,7 @@ deb_packages(
         "libsqlite3-0": "cd7040cec8f05f06c40afea3d3e857890d9fd96ee4aecf61c8c7c0cf72d23004",
         "libssl1.1": "62e9cfe9647f7da4791e91b6b0d8e29192ce425d830141219453ba3400c8655d",
         "libstdc++6": "2a22648689ca745554599a818f01241605b2548540d62026116cb07a15df8d09",
-        "libtinfo6": "ad8b8ee3f85f4e1d2de9a8028719fce8b1869d5d1d3818c95e666bfc28c51c52",
+        "libtinfo6": "5bb6e9c2dab2309dcd0f0d9d9990f21404032c1082a9bd2b127e13e085592f72",
         "libuuid1": "4bde8f620a8a1e818223ed702478afa836d5bb119a4750bc6795ab67b8cb3589",
         "openssl": "2e5d8e0d8a28626bc4717065abe0ee3ab39ec4a0ea4dd273e56a6f142c757f8f",
         "python3.7-minimal": "5e3ca34aacca1d17614236d2ab8ed553fbdbbe41a68d7c75dcd1e2e2f388d071",
