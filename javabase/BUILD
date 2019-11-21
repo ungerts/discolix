@@ -23,11 +23,18 @@ load("//private/noarch:files.bzl", "NONROOT")
 
 [container_image(
     name = platform,
-    base = "//base:" + platform,
+    base = "//cc:" + platform,
     debs = [
         debian_buster[arch]["libgcc1"],
-        debian_buster[arch]["libgomp1"],
-        debian_buster[arch]["libstdc++6"],
+        debian_buster[arch]["zlib1g"],
+        debian_buster[arch]["libjpeg62-turbo"],
+        debian_buster[arch]["libpng16-16"],
+        debian_buster[arch]["liblcms2-2"],
+        debian_buster[arch]["libfreetype6"],
+        debian_buster[arch]["fonts-dejavu-core"],
+        debian_buster[arch]["fontconfig-config"],
+        debian_buster[arch]["libexpat1"],
+        debian_buster[arch]["libfontconfig1"],
     ],
     stamp = True,
 ) for (platform, os, arch) in PLATFORMS]
