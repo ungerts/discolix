@@ -151,7 +151,7 @@ deb_packages(
         "libuuid1": "90b90bef4593d4f347fb1e74a63c5609daa86d4c5003b14e85f58628d6c118b2",
         "openssl": "1f77d5e8603adeec405a2dfe468dee7c70028ed1ebcf1c39ea304ed2608b6236",
         "python3.7-minimal": "1f6fdc0cc76c91de2196df228ea8f613d8b179c62d1be72f4b0a6d77ea746c71",
-        "qemu-user-static": "244d9e69509bb9930716d7bb0873c1bd1afcd7cba62161a49ca0b6d99c93bec2",
+        "qemu-user-static": "f7fc5f37647997aa6d2e09d57c0d0573672f7574ff9688e86df7a6b4c2998a38",
         "zlib1g": "61bc9085aadd3007433ce6f560a08446a3d3ceb0b5e061db3fc62c42fbfe3eff",
     },
     pgp_key = "buster_archive_key",
