@@ -266,7 +266,7 @@ deb_packages(
         "libsqlite3-0": "pool/main/s/sqlite3/libsqlite3-0_3.27.2-3_armhf.deb",
         "libssl1.1": "pool/main/o/openssl/libssl1.1_1.1.1d-2_armhf.deb",
         "libstdc++6": "pool/main/g/gcc-8/libstdc++6_8.3.0-6_armhf.deb",
-        "libtinfo6": "pool/main/n/ncurses/libtinfo6_6.1+20181013-2+deb10u1_armhf.deb",
+        "libtinfo6": "pool/main/n/ncurses/libtinfo6_6.1+20181013-2+deb10u2_armhf.deb",
         "libuuid1": "pool/main/u/util-linux/libuuid1_2.33.1-0.1_armhf.deb",
         "openssl": "pool/main/o/openssl/openssl_1.1.1c-1_armhf.deb",
         "python3.7-minimal": "pool/main/p/python3.7/python3.7-minimal_3.7.3-2_armhf.deb",
