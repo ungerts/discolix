@@ -124,7 +124,7 @@ deb_packages(
         "libuuid1": "pool/main/u/util-linux/libuuid1_2.33.1-0.1_amd64.deb",
         "openssl": "pool/main/o/openssl/openssl_1.1.1c-1_amd64.deb",
         "python3.7-minimal": "pool/main/p/python3.7/python3.7-minimal_3.7.3-2_amd64.deb",
-        "qemu-user-static": "pool/main/q/qemu/qemu-user-static_3.1+dfsg-8~deb10u1_amd64.deb",
+        "qemu-user-static": "pool/main/q/qemu/qemu-user-static_3.1+dfsg-8+deb10u2_amd64.deb",
         "zlib1g": "pool/main/z/zlib/zlib1g_1.2.11.dfsg-1_amd64.deb",
     },
     packages_sha256 = {
