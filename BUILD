@@ -31,6 +31,7 @@ package_group(
         "//cc/...",
         "//python/...",
         "//javabase/...",
+        "//openjdk/...",
     ],
 )
 
@@ -101,6 +102,18 @@ container_bundle(
         "{PROJECT_REGISTRY_PREFIX}/javabase:{PROJECT_GIT_COMMIT}-linux_amd64": "//javabase:linux_amd64",
         "{PROJECT_REGISTRY_PREFIX}/javabase:{PROJECT_GIT_COMMIT}-linux_arm64": "//javabase:linux_arm64",
         "{PROJECT_REGISTRY_PREFIX}/javabase:{PROJECT_GIT_COMMIT}-linux_arm": "//javabase:linux_arm",
+        "{PROJECT_REGISTRY_PREFIX}/openjdk:nonroot-linux_amd64": "//openjdk:nonroot-linux_amd64",
+        "{PROJECT_REGISTRY_PREFIX}/openjdk:nonroot-linux_arm64": "//openjdk:nonroot-linux_arm64",
+        "{PROJECT_REGISTRY_PREFIX}/openjdk:nonroot-linux_arm": "//openjdk:nonroot-linux_arm",
+        "{PROJECT_REGISTRY_PREFIX}/openjdk:debug-linux_amd64": "//openjdk:debug-linux_amd64",
+        "{PROJECT_REGISTRY_PREFIX}/openjdk:debug-linux_arm64": "//openjdk:debug-linux_arm64",
+        "{PROJECT_REGISTRY_PREFIX}/openjdk:debug-linux_arm": "//openjdk:debug-linux_arm",
+        "{PROJECT_REGISTRY_PREFIX}/openjdk:debug-nonroot-linux_amd64": "//openjdk:debug-nonroot-linux_amd64",
+        "{PROJECT_REGISTRY_PREFIX}/openjdk:debug-nonroot-linux_arm64": "//openjdk:debug-nonroot-linux_arm64",
+        "{PROJECT_REGISTRY_PREFIX}/openjdk:debug-nonroot-linux_arm": "//openjdk:debug-nonroot-linux_arm",
+        "{PROJECT_REGISTRY_PREFIX}/openjdk:{PROJECT_GIT_COMMIT}-linux_amd64": "//openjdk:linux_amd64",
+        "{PROJECT_REGISTRY_PREFIX}/openjdk:{PROJECT_GIT_COMMIT}-linux_arm64": "//openjdk:linux_arm64",
+        "{PROJECT_REGISTRY_PREFIX}/openjdk:{PROJECT_GIT_COMMIT}-linux_arm": "//openjdk:linux_arm",
     },
 )
 
