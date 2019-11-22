@@ -177,11 +177,11 @@ deb_packages(
     mirrors = ["http://security.debian.org/debian-security"],
     packages = {"qemu-user-static": "pool/updates/main/q/qemu/qemu-user-static_3.1+dfsg-8+deb10u2_amd64.deb",
                 "openjdk-11-jdk-headless": "pool/updates/main/o/openjdk-11/openjdk-11-jdk-headless_11.0.5+10-1~deb10u1_amd64.deb",
-                "openjdk-11-jre": "pool/updates/main/o/openjdk-11/openjdk-11-jre_11.0.5+10-1~deb10u1_amd64.deb"
+                "openjdk-11-jre-headless": "pool/updates/main/o/openjdk-11/openjdk-11-jre-headless_11.0.5+10-1~deb10u1_amd64.deb"
                },
     packages_sha256 = {"qemu-user-static": "f7fc5f37647997aa6d2e09d57c0d0573672f7574ff9688e86df7a6b4c2998a38",
                        "openjdk-11-jdk-headless": "c4cfd7775d5520845f21ee85d5851760669ec4131caa79af9bb9849d48f19cc2",
-                       "openjdk-11-jre": "a52fd65e9b0c9e94d675e665208880d3b15189d0188fca1056dbbfd547071541"
+                       "openjdk-11-jre-headless": "966bc2f7d25888bc4070165eb260dadf350dde65ba624b832f85db9a0e4a543b"
                       },
     pgp_key = "buster_archive_security_key",
 )
@@ -267,11 +267,11 @@ deb_packages(
     mirrors = ["http://security.debian.org/debian-security"],
     packages = {
         "openjdk-11-jdk-headless": "pool/updates/main/o/openjdk-11/openjdk-11-jdk-headless_11.0.5+10-1~deb10u1_arm64.deb",
-        "openjdk-11-jre": "pool/updates/main/o/openjdk-11/openjdk-11-jre_11.0.5+10-1~deb10u1_arm64.deb"
+        "openjdk-11-jre-headless": "pool/updates/main/o/openjdk-11/openjdk-11-jre-headless_11.0.5+10-1~deb10u1_arm64.deb"
     },
     packages_sha256 = {
         "openjdk-11-jdk-headless": "40447a98878709e3a44d250f3d621c810835f33707a3003f84a715b4eb5b3e1d",
-        "openjdk-11-jre": "30970bc634be5383d16707fade329d06fbf512d03b731b5f2935ecc22496cdd9"
+        "openjdk-11-jre-headless": "b912ffc78d18711a9013f88039d8f4aa6b64b4dd39e7e577e4b0b9cd2d96b955"
     },
     pgp_key = "buster_archive_security_key",
 )
@@ -357,11 +357,11 @@ deb_packages(
     mirrors = ["http://security.debian.org/debian-security"],
     packages = {
         "openjdk-11-jdk-headless": "pool/updates/main/o/openjdk-11/openjdk-11-jdk-headless_11.0.5+10-1~deb10u1_armhf.deb",
-        "openjdk-11-jre": "pool/updates/main/o/openjdk-11/openjdk-11-jre_11.0.5+10-1~deb10u1_armhf.deb"
+        "openjdk-11-jre-headless": "pool/updates/main/o/openjdk-11/openjdk-11-jre-headless_11.0.5+10-1~deb10u1_armhf.deb"
     },
     packages_sha256 = {
         "openjdk-11-jdk-headless": "4ae372c02d1c80f980af940a0a8183614ffdff0a7f94b5e101a5231b6161ff29",
-        "openjdk-11-jre": "b3290dd81f4e57eb1aca81e605c54d0c671ba450bf50c30c0ee334591e6c9c97"
+        "openjdk-11-jre-headless": "b25adb8b10d7ffb7da4f8d5670a85218c9100c889a6e7c78b4e17e2cb2ac9a2c"
     },
     pgp_key = "buster_archive_security_key",
 )
