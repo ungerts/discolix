@@ -27,7 +27,7 @@ load("//repkg:defs.bzl", "repkg_debs")
     name = platform,
     base = "//cc:" + platform,
     debs = [
-        debian_buster[arch]["libgcc1"],
+#        debian_buster[arch]["libgcc1"],
         debian_buster[arch]["zlib1g"],
         debian_buster[arch]["libjpeg62-turbo"],
         debian_buster[arch]["libpng16-16"],
